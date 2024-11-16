@@ -5,7 +5,7 @@
 Simple adaptor board to convert the DB25 floppy interface to a standard IDC 34-way header.
 <br>
 
-![3D render of board](BBC_Master_Compact_Gotek_3D/BBC_Master_Compact_Gotek_3D.png)
+![3D render of board](/Master_Compact_FDC_Interface/BBC_Master_Compact_Gotek_3D.png)
 
 
 
