@@ -2,6 +2,7 @@
  Projects for the BBC Model A/B and Master.
 
 ## [Master Compact Floppy Interface](/Master_Compact_FDC_Interface)
+[Sat 16-Nov-2024: UNTESTED]<br>
 Simple adaptor board to convert the DB25 floppy interface to a standard IDC 34-way header.
 <br>
 
