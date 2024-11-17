@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "BBC Master Compact Floppy Adaptor")
+    (date "17-Nov-2024")
+    (rev "1.1-0")
+    (company "Brett Hallen")
+    (comment 1 "WWW.YOUTUBE.COM/@BRFFF")
+  )
+
   (lib_symbols
     (symbol "Connector:DB25_Plug" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 34.29 0)
@@ -1051,6 +1059,21 @@
     (uuid fad324c4-eff8-4993-92ee-54786d67d3e3)
   )
 
+  (text_box "On the Master Compact's floppy drive, IDC pin 4 is tied to GND (pin 3). \n\nDepending on which pinout you check, this pin is either \"not connected\", \"reserved\" or for signal ~{INUSE}."
+    (at 214.63 40.64 0) (size 48.26 49.53)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (face "Consolas") (size 2.54 2.54)) (justify left top))
+    (uuid c8d07452-f8fe-4deb-9664-0aa9c8ed5fbe)
+  )
+  (text_box "DB25            34-IDC\n                 2  1\n                 4--3\n                 6  5\n    1---INDEX----8  7\n14  2---DS0-----10  9\n15  3---DS1-----12 11\n16  4---DS2-----14 13\n17  5---MOTOR---16 15\n18  6---DIR-----18 17\n19  7---SEEK----20 19\n20  8---DATA----22 21\n21  9---ENABLE--24 23\n22 10---TRK0----26 25\n23 11---WRPROT--28 27\n24 12---READ----30 29\n25 13---SIDE----32 31\n                34 33"
+    (at 162.56 40.64 0) (size 48.26 82.55)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (face "Consolas") (size 2.54 2.54)) (justify left top))
+    (uuid f3718418-88dd-4ca8-b9b4-ee29a629d820)
+  )
+
   (global_label "~{MOTOR}" (shape input) (at 139.7 86.36 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1e68942d-f650-4e85-8285-b9c1478adb0a)
@@ -1086,7 +1109,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "~{INDEX}" (shape input) (at 109.22 60.96 0) (fields_autoplaced)
+  (global_label "INDEX" (shape input) (at 109.22 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 417de92b-6a4b-4012-bda4-81fbc7d8b1aa)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 117.769 60.96 0)
@@ -1142,7 +1165,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "~{INDEX}" (shape input) (at 139.7 106.68 180) (fields_autoplaced)
+  (global_label "INDEX" (shape input) (at 139.7 106.68 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9712480d-35d7-45f6-a0c4-940f1706bc3d)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 131.151 106.68 0)
