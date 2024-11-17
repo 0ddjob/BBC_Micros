@@ -8,7 +8,7 @@ Simple adaptor board to convert the DB25 floppy interface to a standard IDC 34-w
 ```
 DB25             34-IDC
                   2  1
-        /INUSE    4--3 (the MC's floppy has pin 4 connected to GND)
+        /INUSE    4--3 (the MC's floppy has pin 4 connected to GND, not implemented)
                   6  5
     1---INDEX-----8  7
 14  2---/DS0-----10  9
@@ -25,8 +25,8 @@ DB25             34-IDC
 25 13---/SIDE----32 31
                  34 33
 
-Odd pins on DB25 connected to GND.
-Even pins on IDC connected to GND.
+Pins 14-25 on DB25 connected to GND.
+Odd pins on IDC connected to GND.
 ```
 
 ![3D render of board](/Master_Compact_FDC_Interface/BBC_Master_Compact_Gotek_3D.png)
