@@ -9,7 +9,7 @@ Simple adaptor board to convert the DB25 floppy interface to a standard IDC 34-w
 - 27-Nov-2024: PCBs arrived
 - 3-Dec-2024: tested successfully
 <br>
-### Pinout<br>
+
 ```
 DB25             34-IDC
                   2  1
