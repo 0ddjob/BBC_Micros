@@ -37,3 +37,7 @@ i.e. /INUSE grounded.  This doesn't seem to matter when using the Gotek.
 ```
 
 ![3D render of board](/Master_Compact_FDC_Interface/BBC_Master_Compact_Gotek_3D.png)
+
+![Built board](/Master_Compact_FDC_Interface/BBC_Master_Compact_Gotek_Built1.jpg)
+![Built board with Gotek](/Master_Compact_FDC_Interface/BBC_Master_Compact_Gotek_Built2.jpg)
+
